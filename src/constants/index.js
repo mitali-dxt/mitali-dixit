@@ -116,16 +116,16 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
+      title: "UI-UX Designer",
+      company_name: "Design Company",
       icon: starbucks,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "April 2023 - April 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Designing beautiful and functional user interfaces for various startups and club websites.",
+"Collaborating with cross-functional teams, including designers and developers, to create seamless user experiences.",
+"Conducting hands-on workshops on UI-UX design, sharing best practices and industry insights.",
+"Organizing various events and workshops for students on campus to enhance their understanding of UI-UX design.",
       ],
     },
     {
