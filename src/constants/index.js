@@ -3,6 +3,19 @@ import {
     backend,
     creator,
     web,
+    javascript,
+  typescript,
+  html,
+  css,
+  reactjs,
+  redux,
+  tailwind,
+  nodejs,
+  mongodb,
+  git,
+  figma,
+  docker,
+  threejs,
     desco,
     gdsc,
     headstarter,
@@ -42,6 +55,49 @@ import {
     {
       title: "Data Structures and Algorithms",
       icon: creator,
+    },
+  ];
+
+  const technologies = [
+    {
+      name: "HTML 5",
+      icon: html,
+    },
+    {
+      name: "CSS 3",
+      icon: css,
+    },
+    {
+      name: "JavaScript",
+      icon: javascript,
+    },
+    {
+      name: "React JS",
+      icon: reactjs,
+    },
+    {
+      name: "Tailwind CSS",
+      icon: tailwind,
+    },
+    {
+      name: "Node JS",
+      icon: nodejs,
+    },
+    {
+      name: "MongoDB",
+      icon: mongodb,
+    },
+    {
+      name: "Three JS",
+      icon: threejs,
+    },
+    {
+      name: "git",
+      icon: git,
+    },
+    {
+      name: "figma",
+      icon: figma,
     },
   ];
   
@@ -192,4 +248,4 @@ import {
     },
   ];
   
-  export { services, experiences, testimonials, projects };
+  export { services, experiences, technologies,testimonials, projects };
