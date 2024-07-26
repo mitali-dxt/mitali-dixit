@@ -40,17 +40,17 @@ const About = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <h2 className={styles.sectionHeadText }>About Me.</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-bold text-white text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm an upcoming SWE intern at Google and a full-stack web developer with 
+        I'm a pre-final year student at NIT Patna pursuing Computer Science and Engineering. 
+        I am an upcoming SWE intern at Google and a full-stack web developer with 
         expertise in frameworks like React and Node.js. I'm also a web3 
         enthusiast. I'm a workaholic who wants to try everything that other people can do.
-        I am a quick learner and I love problem solving.
         Let's work together to solve some real-world problems!
       </motion.p>
 
