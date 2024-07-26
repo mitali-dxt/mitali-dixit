@@ -49,8 +49,8 @@ const About = () => {
       >
         I'm a pre-final year student at NIT Patna pursuing Computer Science and Engineering. 
         I am an upcoming SWE intern at Google and a full-stack web developer with 
-        expertise in frameworks like React and Node.js. I'm also a web3 
-        enthusiast. I'm a workaholic who wants to try everything that other people can do.
+        expertise in frameworks like React and Node.js. I am also a web3 
+        enthusiast. I am a workaholic who wants to try everything that other people can do.
         Let's work together to solve some real-world problems!
       </motion.p>
 
