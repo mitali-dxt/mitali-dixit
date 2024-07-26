@@ -26,9 +26,9 @@ import headstarter from "./company/headstarter.png";
 import desco from "./company/desco.png";
 import gdsc from "./company/gdsc.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import nft from "./nft.jpg";
+import echodetect from "./echodetect.png";
+import weather from "./weather.png";
 
 export {
   logo,
@@ -55,7 +55,7 @@ export {
   headstarter,
   desco,
   gdsc,
-  carrent,
-  jobit,
-  tripguide,
+  nft,
+  echodetect,
+  weather,
 };

@@ -18,9 +18,9 @@ import {
     desco,
     gdsc,
     headstarter,
-    carrent,
-    jobit,
-    tripguide,
+    nft,
+    echodetect,
+    weather,
     threejs,
   } from "../assets";
   
@@ -196,67 +196,67 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "NFTify",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: carrent,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "An AI powered NFT minting application that leverages AI models capable of generating unique digital images based on user-descriptions",
       tags: [
         {
           name: "nextjs",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "ethereum",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "solidity",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image:nft,
+      source_code_link: "https://github.com/srivas-divyansh/Blockchain-Lab",
+    },
+    {
+      name: "EchoDetect.AI",
+      description:
+        "A web application that uses AI and LLMs to detect fraudulent product ratings and reviews on Amazon, aiming to analyze sentiment, identify patterns, and protect customer trust.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "nodejs",
+          color: "green-text-gradient",
+        },
+        {
+          name: "beautiful soup",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: echodetect,
+      source_code_link: "https://github.com/mitali-dxt/EchoDetect.ai",
+    },
+    {
+      name: "WeatherReady",
+      description:
+        "WeatheReady offers a comprehensive solution by integrating weather-based clothing recommendations, food suggestions, and a health chatbot into a single platform.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "weather-api",
+          color: "green-text-gradient",
+        },
+        {
+          name: "gemini-api",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: weather,
+      source_code_link: "https://github.com/mitali-dxt/WeatheReady",
     },
   ];
   
