@@ -121,6 +121,20 @@ const Contact = () => {
             {loading ? "Sending..." : "Send"}
           </button>
         </form>
+        <div className='mt-8 text-center'>
+          <p className='text-secondary text-[17px]'>
+           Want to connect with me professionally? You can also reach out on my{' '}
+            <a
+              href='https://www.linkedin.com/in/mitali-dixit-9b0570254/'
+              target='_blank'
+              rel='noopener noreferrer'
+              className='text-yellow-500 underline'
+            >
+              LinkedIn
+            </a>
+            .
+          </p>
+        </div>
       </motion.div>
 
       <motion.div

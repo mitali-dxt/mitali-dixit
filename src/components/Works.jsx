@@ -91,6 +91,20 @@ const Works = () => {
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
       </div>
+      <div className='mt-20 text-center'>
+        <p className='text-secondary text-[17px]'>
+          Want to see more of my projects? Check out my{" "}
+          <a
+            href='https://github.com/mitali-dxt' // Replace with your GitHub URL
+            target='_blank'
+            rel='noopener noreferrer'
+            
+            style={{ color: 'yellow', textDecoration: 'underline' }}
+          >
+            GitHub
+          </a>
+        </p>
+      </div>
     </>
   );
 };
