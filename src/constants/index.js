@@ -4,17 +4,14 @@ import {
     creator,
     web,
     javascript,
-  typescript,
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
   mongodb,
   git,
   figma,
-  docker,
   threejs,
     desco,
     gdsc,
@@ -22,6 +19,8 @@ import {
     nft,
     echodetect,
     weather,
+    flash,
+    genie,
   } from "../assets";
   
   export const navLinks = [
@@ -184,6 +183,27 @@ import {
   
   const projects = [
     {
+      name: "FlashLearn",
+      description:
+        "FlashLearn is an interactive application designed to enhance learning through flashcards allowing users to create and flip through various categories",
+      tags: [
+        {
+          name: "reactjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "nodejs",
+          color: "green-text-gradient",
+        },
+        {
+          name: "mysql",
+          color: "pink-text-gradient",
+        },
+      ],
+      image:flash,
+      source_code_link: "https://github.com/mitali-dxt/FlashLearner",
+    },
+    {
       name: "NFTify",
       description:
         "An AI powered NFT minting application that leverages AI models capable of generating unique digital images based on user-descriptions",
@@ -224,6 +244,27 @@ import {
       ],
       image: echodetect,
       source_code_link: "https://github.com/mitali-dxt/EchoDetect.ai",
+    },
+    {
+      name: "SupportGenie",
+      description:
+        "SupportGenie is a conversational AI chatbot built with Next.js and Firebase. It provides users with a seamless chat experience and includes features such as user authentication and feedback collection",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "firebase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "groq-api",
+          color: "pink-text-gradient",
+        },
+      ],
+      image:genie,
+      source_code_link: "https://github.com/mitali-dxt/SupportGenie",
     },
     {
       name: "WeatherReady",

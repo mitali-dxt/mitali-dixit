@@ -28,6 +28,8 @@ import gdsc from "./company/gdsc.png";
 import nft from "./nft.jpg";
 import echodetect from "./echodetect.png";
 import weather from "./weather.png";
+import flash from "./flash.png";
+import genie from "./genie.png";
 
 export {
   logo,
@@ -57,4 +59,6 @@ export {
   nft,
   echodetect,
   weather,
+  flash,
+  genie,
 };
