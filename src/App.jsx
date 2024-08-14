@@ -1,7 +1,9 @@
 import { BrowserRouter } from "react-router-dom"
+import useIsMobile from "./hooks/useIsMobile"
 import {About, Contact, Experience, Hero, Tech,Navbar, Works, StarsCanvas} from "./components"
 
 const App = () => {
+  const isMobile = useIsMobile();
   return (
     <BrowserRouter>
     <div className="relative z-0 bg-primary">
@@ -11,9 +13,9 @@ const App = () => {
         <About />
         <Experience />
         </div>
-
+        {!isMobile && <Tech />}
         <Works />
-        <StarsCanvas />
+        {!isMobile && <StarsCanvas />}
         <div className="relative z-0">
           <Contact />
         
