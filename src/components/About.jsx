@@ -48,7 +48,7 @@ const About = () => {
         className='mt-4 text-bold text-white text-[17px] max-w-3xl leading-[30px]'
       >
         I'm a pre-final year student at NIT Patna pursuing Computer Science and Engineering. 
-        I am an upcoming SWE intern at Google and a full-stack web developer with 
+        I am a full-stack web developer with 
         expertise in frameworks like React and Node.js. I am also a web3 
         enthusiast. I am a workaholic who wants to try everything that other people can do.
         Let's work together to solve some real-world problems!
